@@ -18,10 +18,10 @@ class CreateContactsTable extends Migration
             $table->string('name',50);
             $table->string('surname',50);
             $table->string('mail',100);
-            $table->integer('phone');
+            $table->string('phone');
             $table->string('address');
             $table->string('city');
-            $table->integer('postalCode');
+            $table->integer('postal_code');
             $table->timestamps();
         });
     }
